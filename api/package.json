@@ -12,7 +12,6 @@
     "ramda": "^0.25.0"
   },
   "scripts": {
-    "load": "node load-data.js",
-    "start": "node api.js"
+    "load": "node load-data.js"
   }
 }

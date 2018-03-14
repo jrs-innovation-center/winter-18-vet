@@ -2,10 +2,7 @@ import React from 'react'
 import { map } from 'ramda'
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
-
-const li = category => {
-  return <li key={category.id}>{category.shortName}</li>
-}
+import { li } from '../../components/CategoryListItem'
 
 const Categories = props => {
   return (
@@ -15,7 +12,6 @@ const Categories = props => {
     </div>
   )
 }
-
 const mapStateToProps = state => {
   return { categories: state.categories }
 }

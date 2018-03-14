@@ -2,13 +2,14 @@ import React from 'react'
 import { map } from 'ramda'
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { li } from '../../components/CategoryListItem'
+import { li } from '../../components/componentListItem2'
+import List from 'material-ui/List'
 
 const Categories = props => {
   return (
     <div>
       <h1>Categories</h1>
-      <ul>{map(li, props.categories)}</ul>
+      <List>{map(li, props.categories)}</List>
     </div>
   )
 }

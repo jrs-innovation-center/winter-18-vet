@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
+    "material-design-icons": "^3.0.1",
     "material-ui": "^1.0.0-beta.37",
     "material-ui-icons": "^1.0.0-beta.36",
     "ramda": "^0.25.0",

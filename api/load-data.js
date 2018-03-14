@@ -10,7 +10,7 @@ db
       desc:
         'Includes organizations that provide one or more of the following services: shelter facilities for the homeless and for those escaping situations of domestic violence, food/supplemental nutrition resources, and single-transaction emergency financial assistance in cases of involuntary hardship.',
       shortDesc: 'Shelter, safety, food, financial assistance',
-      icon: 'X',
+      icon: 'check_circle',
       type: 'category',
       _id: 'category_basic-needs-assistance'
     },
@@ -20,7 +20,7 @@ db
       desc:
         'Benefits include federal, state, and local agencies that assist veterans and their families in filing for claims to receive benefits earned as a result of military service.',
       shortDesc: 'Claims assistance for benefits recipients',
-      icon: 'X',
+      icon: 'attach_money',
       type: 'category',
       _id: 'category_benefits'
     },
@@ -30,7 +30,7 @@ db
       desc:
         'College Education/Vocational Certification includes programs that assist current and retired military members to enterinstitutions of higher educationand to obtain additionalspecialized training or certification necessary for part-time and/or full-time employment.',
       shortDesc: 'Education and training opportunities',
-      icon: 'X',
+      icon: 'school',
       type: 'category',
       _id: 'category_education-and-training'
     }
